@@ -16,8 +16,8 @@ jobs:
       - name: Set Java 11      
         uses: actions/setup-java@v3
         with: 
-	distribution: 'temurin'
-	java-version: '11'
+      distribution: 'temurin'
+      java-version: '11'
          
       - name: Setup SonaQube
         uses: warchant/setup-sonar-scanner@v7
